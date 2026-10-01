@@ -1,1 +1,1 @@
-# -Rietveld_Refinement_Method
+# Rietveld_Refinement_Method
