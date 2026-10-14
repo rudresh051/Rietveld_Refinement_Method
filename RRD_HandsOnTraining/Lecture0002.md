@@ -1,0 +1,65 @@
+* In this you need not to do background removal as it is already starts from 0.
+  * if you still do background removal you will be doing overfitting
+
+ Peak number 1
+
+![alt text](image-10.png)
+
+> There is a mismatch between peak width
+> Peak width is more in data as compared to calculated one
+
+* Whenever you require the tuning of Theta values, you need to do the tuning of a,b,c parameter
+* So whenever the calculated 2theta does not overlap with the experimental one, you are supposed to carry out the a,b,c tuning
+* So in above , the 2theta has perfect overlap
+* Width is not overlap, intensity is not overlap - I am not concerned about it at this stage.
+
+## Full Width Half Maximum
+
+![alt text](image-11.png)
+
+![alt text](image-12.png)
+
+> In above I need to increase the FWHM corresponding to the calculated peak
+> FWHM are related to u,v,w parameters. you don't have to go into details of how it is related 
+
+![alt text](image-13.png)
+
+> Do not select u,v, w at a time.
+> select u and run and see what happens first
+
+In terms of Intensity we have a better match  
+
+![alt text](image-14.png)
+
+> Rp value should be less than 15%
+![alt text](image-15.png)
+
+> R is basically corresponds to the residual function
+> Rp corresponds to residual function in terms of intensity mismatch
+> So in above Rp factor says there is 65% mismatch in terms of intensity , so we need to decrease it  
+> Rwp - It defines the total mismatch in terms of experimental and the calculated plot  
+> So note that Rp only relates to the intensity part and Rwp it relates to with all kind of mismatches - whether the intensity part, the peak position, width whatsoever.  
+> Rwp value you cannot skip and at this stage Rwp value is close to 76%. But where is the mismatch? If I look at the fitting visually, it seems be a very good fit.  
+
+![alt text](image-16.png)
+
+> Now Rexp - The maximum mismatch percentage which you will always have regardless of whatsoever fitting yo do.  
+> Or the minimum residual parameter, the minimum mismatch which you will always have regardless of whatsoever refinement you do.  
+> Basically Rexp value is a theoritical limit beyound which you cannot reduce the residual value
+> Why - tthat depends upon on the quality of the diffraction pattern
+> So Rwp should be equal to Rexp.  
+> Below Rexp will be over fitting
+> Rwp > Rexp may not a good fit  
+> Accpetable value of chi2 value is from 0.95 to 2.4  
+
+![alt text](image-17.png)
+
+The blue line will have some humps and dumps even on the complete fitting part
+
+![alt text](image-18.png)
+
+> The intensity count are reaching in the range of almost 1 lakh. So therefore even a slight mismatch in terms of intensity greatly increases the value of chi square.  
+> so in these cases wherein the intensity counts increases beyound 10,000 you need to leave the chi square and you need to focus on the residual functions.  
+> These residual function should not exceed the value beyound 15%  
+
+![alt text](image-19.png)

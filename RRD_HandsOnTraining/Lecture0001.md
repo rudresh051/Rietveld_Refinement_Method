@@ -62,3 +62,6 @@ click on save again and that would save whatever changes you would have done.
 Click on Run FullProf Program and you will get graph like this 
 
 ![alt text](image-9.png)
+
+* Red - Black to get the blue
+* Our objective should be that Blue line should be straight line after refinement
