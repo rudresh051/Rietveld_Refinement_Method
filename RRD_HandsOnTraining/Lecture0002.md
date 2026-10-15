@@ -105,3 +105,23 @@ Select v and deselct u, run FullProf Program
 
 > And that is why you ended up with the overfitting residual function 49.8 which is far lower than the theoritical limit  
 
+> you will get more files after refinement - .out, .prf, .sum, .fst
+
+![alt text](image-27.png)
+
+> Deselect all the parameters in the refinement and click on output panel  
+
+![alt text](image-28.png)
+
+![alt text](image-29.png)
+
+> Now again run the FullProf once again  
+
+you will get 2 more file  
+
+![alt text](image-30.png)
+
+
+* Import the xyy file in Origin
+
+![alt text](image-31.png)
