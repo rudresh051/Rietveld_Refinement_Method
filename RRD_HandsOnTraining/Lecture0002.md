@@ -121,6 +121,10 @@ you will get 2 more file
 
 ![alt text](image-30.png)
 
+Open the graph using WinPlot
+
+![alt text](image-32.png)
+
 
 * Import the xyy file in Origin
 
