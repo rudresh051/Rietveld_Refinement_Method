@@ -63,3 +63,21 @@ The blue line will have some humps and dumps even on the complete fitting part
 > These residual function should not exceed the value beyound 15%  
 
 ![alt text](image-19.png)
+
+> Typical XRD pattern consists of both sharp peaks at lower 2theta and broad peaks at a higher 2theta  
+> So therefor I cannot purely use the Gaussian function and the Larentzian function till the time I sees either all sharp peaks or all broad peaks.  
+> So If I get a mix of both, I am going to use another mathematical function which is called as a pseudo voight function  
+
+## Pseudo-Voight function
+
+![alt text](image-20.png)
+
+> It comprises of both Lorentzian as well as Gaussian contribution  
+> If Lorentzian component exceeds the Gaussian one, that means peak width will be more or less?
+> - It is going to be more  
+> Otherwise if the Gaussian component is more as compared to the Lorentzian one then the peaks would be sharp.  
+
+![alt text](image-21.png)
+
+> The software will change the eta X variable for all the peaks and by changing the eta X variable for all the peaks it will have a perfect balance between the Gaussian and the Lorentzian contribution and it will mimic the entire XRD pattern  
+
