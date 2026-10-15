@@ -81,3 +81,27 @@ The blue line will have some humps and dumps even on the complete fitting part
 
 > The software will change the eta X variable for all the peaks and by changing the eta X variable for all the peaks it will have a perfect balance between the Gaussian and the Lorentzian contribution and it will mimic the entire XRD pattern  
 
+Select v and deselct u, run FullProf Program  
+
+![alt text](image-22.png)
+
+* Rwp < Rexp and so Chi square value is slightly less than 1, which is overfitting but acceptable
+
+![alt text](image-23.png)
+
+* for above select w and deselect u,v  
+
+* Select Eta parameter and press Ok , again ok and run fullProf program
+
+![alt text](image-24.png)
+
+* Select X
+
+![alt text](image-25.png)
+
+> After doing background correction, chi square value is 0.222  
+
+![alt text](image-26.png)
+
+> And that is why you ended up with the overfitting residual function 49.8 which is far lower than the theoritical limit  
+
