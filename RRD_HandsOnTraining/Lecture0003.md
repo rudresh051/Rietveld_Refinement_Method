@@ -108,3 +108,39 @@
 > C is different  
 > why I took the hexagonal system, I will discuss it in tomorrow session  
 
+![alt text](image-48.png)
+
+> Now I am observing there is no more change in the chi square with the increase in number of cycles  
+> So therefore in this case I will not give it  
+> So I again see convergenece not yet reached. In this case I will exit
+> So If i see after every cycle there is change in the value of chi square i will give it  
+
+
+![alt text](image-49.png)
+
+![alt text](image-50.png)
+
+> refine - a, b, c then ab, bc, ca  
+> deselect all lattice and again remove background.  
+
+
+> Now look at the overlap  
+> what about the peak shape? is it a good overlap or a bad overlap in terms of peak shape?  
+> So both in terms of FWHM and the peak shape there is a bad overlapping. so let us refine those parameters  
+> Now we need to do the FWHM refinement  
+> Refine - u,v, w
+> Refine - eta, x and then both eta+x  
+> then refine - eta + u 
+
+![alt text](image-51.png)
+
+> Do the zero correction  
+
+![alt text](image-52.png)
+
+> Zero point correction parameter removes mismatch in terms of your XRD instrument. Initial 2theta and final 2theta with the XRD instrument  
+> Those researchers would have used who gave you .cif file  
+> The dat file has our own data but .cif file it has a data which some another researcher would have accumulated on there diffractometer.  
+> If there would be a mismatch in terms of the diffractometer which you would have used and which they would have used the zero point correction parameter will eliminate it  
+
+ 
