@@ -56,4 +56,32 @@ The Williamson Hall plot is defined as a method for obtaining particle size and 
 > From there you will get the value of 2theta and corresponding FWHM values  
 > So what do you have to do it?  
 > You need to insert those value  
+
+
+![alt text](image-62.png)
+
+![alt text](image-63.png)
+
+![alt text](image-64.png)
+
+![alt text](image-65.png)
+
+## Reference File
+
+> How to obtain the best available reference file from the database?  
+> So before I discuss about what is the best available reference file, we need to understand what is the meaning of reference file  
+> So see our reference file is basically a file wherein couple of parameters pertaining to the refinement are written  
+> So now you have to corelate whatsoever we have studied in the last 3-4 sessions  
+> I discussed that we have to do the rietveld refinement and to do the rietveld refinement we need to provide the experimental data we have already provided in terms of that file on the basis of that software plots  
+> The XRD Pattern - the red color plot  
+> Black color plot - that is the calculated one  
+> We need a mathematical equation to plot it, which mathematical equation we had used to plot it?  
+> That was the pseudovoight function  
+> And in the pseudo-voight function we need to provide some values such that it will plot a black color calculated graph  
+> So from where do you get those values to plot the calculated pattern those values comes from the reference file  
+> What is the role of reference CIF file, clear?  
+
+
+![alt text](image-66.png)
+
 > 
