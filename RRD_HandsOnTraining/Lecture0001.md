@@ -15,13 +15,21 @@ it's very simple to solve
 > We have 3 mathematical function  
 > Gaussiaon, Laurentizian, Pseudo-Voight functions are used to do the refienement of XRD Pattern  
 > In Rietveld refinement, the crystallographic based parameters - u,v,w, background, FWHM.  
-> So you essentially have to change the values of those such that calculated plot will have a perfuct overlap onto the experimental  
+> So you essentially have to change the values of those such that calculated plot will have a perfect overlap onto the experimental  
 > That is your only objective. Not going to be an easy task.  
 > We will practise some examples and it will become clear  
 
+## Rietveld Refinement Steps
+
 1. Step 1 - Convert experimental data into .dat file
-2. Step 2 - Obtain the best available reference file
-3. Step 3 - Convert .cif file into pcr file  
+   1. Only single row with step size
+
+![alt text](image-75.png)
+
+![alt text](image-76.png)
+
+2. Step 2 - Obtain the best available reference file. we have already provided you.
+3. Step 3 - Convert .cif file into pcr file  where fullprof will store all the required information and result corresponding to the refinment.
 
 ![alt text](image-1.png)
 
@@ -65,3 +73,10 @@ Click on Run FullProf Program and you will get graph like this
 
 * Red - Black to get the blue
 * Our objective should be that Blue line should be straight line after refinement
+
+
+* Example
+
+![alt text](image-77.png)
+
+for above peaks are broad. so we need to reduce our step size. you have to do the Background removal or smoothening.
