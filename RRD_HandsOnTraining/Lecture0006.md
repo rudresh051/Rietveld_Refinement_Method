@@ -45,6 +45,7 @@ Yes.
 ```txt
 h k l 2theta FWHMvalue errorInFWHM etaValue errorInETAvalue
 ```
+![alt text](image-85.png)
 
 ![alt text](image-79.png)
 
