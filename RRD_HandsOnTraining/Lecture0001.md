@@ -41,9 +41,17 @@ Click on "Save" icon and .pcr file will be generated
 
 ![alt text](image-3.png)
 
+* Give title - Click on general
+
+![alt text](image-86.png)
+
 > This is the utmost important file because all the calculation steps, parameter results will be store in this PCR file itself  
 
-* Select File
+* click on Patterns option and and below will open and click on data file peak shape.
+
+![alt text](image-87.png)
+
+Select File
 
 ![alt text](image-4.png)    
 
